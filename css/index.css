@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--Charcoal-Grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+:root {
+  --Dark-Slate-Grey: hsl(234, 29%, 20%);
+  --Charcoal-Grey: hsl(235, 18%, 26%);
+  --Grey: hsl(231, 7%, 60%);
+  --White: hsl(0, 0%, 100%);
+  --Tomato: hsl(4, 100%, 67%);
+}
+
+#root {
+  display: flex;
+  border-radius: 2rem;
+}
+
+li {
+  list-style: none;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content {
+  width: 500px;
+  padding: 4rem 2rem;
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.content h2 {
+  width: 100%;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.image {
+  padding: 1rem 2rem;
+  background-color: var(--White);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.input-div {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-div label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.input-div input {
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  border-color: var(--Charcoal-Grey);
+}
+
+.input-div .btn {
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 97, 85);
+  color: var(--White);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: var(--White);
+}
+
+.user-image {
+  margin: 1rem 0;
+}
+
+.card p {
+  color: var(--Dark-Slate-Grey);
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+.card span {
+  color: black;
+  font-weight: 600;
+}
+
+.card h4 {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+.card {
+  background-color: var(--White);
+  padding: 1rem 3rem;
+  width: 450px;
+  border-radius: 20px;
+}
+
+.user-button {
+  width: 100%;
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: var(--Dark-Slate-Grey);
+  border: none;
+  border-radius: 5px;
+  margin: 1rem 0;
+  color: var(--White);
+  cursor: pointer;
+}
